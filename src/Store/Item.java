@@ -3,11 +3,11 @@ package Store;
 
 public interface Item {
 
-    String getName(String name);
+    String getName();
 
     String setName(String name);
 
     int setPrice(int price);
 
-    int getPrice(int price);
+    int getPrice();
 }

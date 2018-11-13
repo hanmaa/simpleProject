@@ -21,12 +21,12 @@ public class Tomato implements Item {
     }
 
     @Override
-    public int getPrice(int price) {
+    public int getPrice() {
         return price;
     }
 
     @Override
-    public String getName(String name) {
+    public String getName() {
         return name;
     }
 

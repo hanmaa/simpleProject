@@ -54,7 +54,7 @@ public class Main {
     private static void buyItem(Shop shop, Cart cart){
         System.out.println("введите номер продукта");
         int choicee = Integer.parseInt(scan.nextLine());
-        cart.getCart().add(shop.getProduct().get(choicee - 1));
+        cart.setCart(shop.getProduct().get(choicee - 1));
     }
 
     private static void addItem(Shop Shop) {
