@@ -63,9 +63,9 @@ public class Main {
         Cake c1 = new Cake("торт", 200);
         Rice r1 = new Rice("рис", 60);
 
-        Shop.getProduct().add(t1);
-        Shop.getProduct().add(f1);
-        Shop.getProduct().add(c1);
-        Shop.getProduct().add(r1);
+        Shop.setProduct(t1);
+        Shop.setProduct(f1);
+        Shop.setProduct(c1);
+        Shop.setProduct(r1);
     }
 }
